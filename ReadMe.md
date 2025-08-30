@@ -21,7 +21,7 @@ See [`tests/valid`](./tests/valid/) for valid examples for JSON-LD-encoded Varia
 
 | Requirement                                                             | SHACL | JSON-Schema |
 |-------------------------------------------------------------------------|-------|-------------|
-| `Variable` needs to have an identifier.                                 | ✗     | ✓           |
+| `Variable` needs to have an identifier.                                 | ✓     | ✓           |
 | `Variable` needs to have exactly one `Property`.                        | ✓     | ✓           |
 | `Variable` needs to have exactly one `ObjectOfInterest`.                | ✓     | ✓           |
 | `Variable` can have up to one `Matrix`.                                 | ✓     | ✓           |

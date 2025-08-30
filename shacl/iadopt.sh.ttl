@@ -62,6 +62,23 @@ shape:VariableShape
     sh:class iadopt:Constraint ;
   ] ;
 
+ sh:sparql [
+    a sh:SPARQLConstraint ;
+    sh:message "Variable must be assigned a proper URI." ;
+    sh:declare [
+      sh:prefix "iadopt" ;
+      sh:namespace "https://w3id.org/iadopt/ont/"^^xsd:anyURI ;
+    ] ;
+    sh:prefixes iadopt: ;
+    sh:select """
+      PREFIX iadopt: <https://w3id.org/iadopt/ont/>
+      SELECT $this
+      WHERE {
+        ?this iadopt:hasProperty $prop .
+        FILTER (!isURI(?this))
+      }
+      """ ;
+  ] ; 
   .
 
 
