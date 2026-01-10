@@ -35,7 +35,7 @@ shape:VariableShape
   ] ;
 
   sh:property [
-    sh:message "Variable can have an arbitrary number of up to one ContextObjects." ;
+    sh:message "Variable can have an arbitrary number of ContextObjects." ;
     sh:path iadopt:hasContextObject ;
     sh:minCount 0 ;
     sh:nodeKind sh:BlankNodeOrIRI ;
@@ -78,7 +78,7 @@ shape:VariableShape
         FILTER (!isURI(?this))
       }
       """ ;
-  ] ; 
+  ] ;
   .
 
 
