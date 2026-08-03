@@ -9,66 +9,59 @@ importers:
   .:
     dependencies:
       '@zazuko/env-node':
-        specifier: ^2.1.3
-        version: 2.1.3(@rdfjs/types@1.1.0)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.8)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.10)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)(web-streams-polyfill@3.3.3)
+        specifier: ^3.1.0
+        version: 3.1.0(@rdfjs/types@2.0.1)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.9)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)
       ajv:
-        specifier: ^8.17.1
-        version: 8.17.1
+        specifier: ^8.20.0
+        version: 8.20.0
       cli-color:
         specifier: ^2.0.4
         version: 2.0.4
       globals:
-        specifier: ^15.9.0
-        version: 15.9.0
+        specifier: ^17.9.0
+        version: 17.9.0
       rdf-validate-shacl:
-        specifier: ^0.5.5
-        version: 0.5.5(@rdfjs/types@1.1.0)
+        specifier: ^0.6.5
+        version: 0.6.5
 
 packages:
 
-  '@bergos/jsonparse@1.4.1':
-    resolution: {integrity: sha512-vXIT0nzZGX/+yMD5bx2VhTzc92H55tPoehh1BW/FZHOndWGFddrH3MAfdx39FRc7irABirW6EQaGxIJYV6CGuA==}
+  '@bergos/jsonparse@1.4.2':
+    resolution: {integrity: sha512-qUt0QNJjvg4s1zk+AuLM6s/zcsQ8MvGn7+1f0vPuxvpCYa08YtTryuDInngbEyW5fNGGYe2znKt61RMGd5HnXg==}
     engines: {'0': node >= 0.2.0}
 
-  '@digitalbazaar/http-client@3.4.1':
-    resolution: {integrity: sha512-Ahk1N+s7urkgj7WvvUND5f8GiWEPfUw0D41hdElaqLgu8wZScI8gdI0q+qWw5N1d35x7GCRH2uk9mi+Uzo9M3g==}
-    engines: {node: '>=14.0'}
+  '@digitalbazaar/http-client@4.3.0':
+    resolution: {integrity: sha512-6lMpxpt9BOmqHKGs9Xm6DP4LlZTBFer/ZjHvP3FcW3IaUWYIWC7dw5RFZnvw4fP57kAVcm1dp3IF+Y50qhBvAw==}
+    engines: {node: '>=18.0'}
 
-  '@fastify/busboy@2.1.1':
-    resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
-    engines: {node: '>=14'}
-
-  '@rdfjs/data-model@2.0.2':
-    resolution: {integrity: sha512-v5LRNkLRJazMCGU7VtEzhz5wKwz/IrOdJEKapCtd35HuFbQfeGpoJP6QOXGyFHhWwKmtG+UMlZzYFyNDVE1m6g==}
+  '@rdfjs/data-model@2.1.2':
+    resolution: {integrity: sha512-yoSVlyCltqbaCTse3uSdf5Vo3q4UskcTm+3klaUQTwOq7Z5aCZLtLPZatXTPzr+S0WEcjTZvD++A+r3QmgamsA==}
     hasBin: true
 
-  '@rdfjs/dataset@2.0.2':
-    resolution: {integrity: sha512-6YJx+5n5Uxzq9dd9I0GGcIo6eopZOPfcsAfxSGX5d+YBzDgVa1cbtEBFnaPyPKiQsOm4+Cr3nwypjpg02YKPlA==}
+  '@rdfjs/dataset@2.0.3':
+    resolution: {integrity: sha512-Ur6M0nDFXMJWNYe1IBDBaQV/nIwRbe3+I58syOHnzZNbe7ZHumUOS/0XQ1+9WYF31tmQU7w741MRn6W3J+OTeg==}
     hasBin: true
 
   '@rdfjs/environment@1.0.0':
     resolution: {integrity: sha512-+S5YjSvfoQR5r7YQCRCCVHvIEyrWia7FJv2gqM3s5EDfotoAQmFeBagApa9c/eQFi5EiNhmBECE5nB8LIxTaHg==}
 
-  '@rdfjs/fetch-lite@3.2.3':
-    resolution: {integrity: sha512-CZfUsBekFIDYCoXBW59ehgYctIluqatWB0YqCJoA8scENuo5IHPXdPMiLt1YVqUnxQ4STwEBOUoIiaCVxwfOFg==}
-
-  '@rdfjs/formats@4.0.0':
-    resolution: {integrity: sha512-9e0DX+iWi8d958Px6Ggb1otl/EhfyvlfWcop+lS0aZlsGV2YK9Phl5lzCUYTfTefSyyQk8tJd5XN52hhDLb5Wg==}
+  '@rdfjs/formats@4.0.1':
+    resolution: {integrity: sha512-Rg53vP+x1bnGAqJNKgEzJEUPDhj+tCpzb6wdmfLoVFq4XoZ589+cg2ScFDUMMyAVsgKXvSWjDhQ9f9ab254ZxA==}
 
   '@rdfjs/namespace@2.0.1':
     resolution: {integrity: sha512-U85NWVGnL3gWvOZ4eXwUcv3/bom7PAcutSBQqmVWvOaslPy+kDzAJCH1WYBLpdQd4yMmJ+bpJcDl9rcHtXeixg==}
 
-  '@rdfjs/parser-jsonld@2.1.1':
-    resolution: {integrity: sha512-bddq04r/p7booWk+5IqcTlWpDljy8Sv1cdFynpzawNruZTD99n3eSj7LCHPBUzqnpXc1Dnt8tgXiqB02WSYtiw==}
+  '@rdfjs/parser-jsonld@2.1.3':
+    resolution: {integrity: sha512-VYnPEwVdqFAPTo9F8XIN4UpGPdNzhBaCFv5b5OT74pA7H8so4aTno3Yd6M5I9bhTrUoCQjpjgr+ugYlvWxdBIA==}
 
-  '@rdfjs/parser-n3@2.0.2':
-    resolution: {integrity: sha512-rrrvyh+kkj9ndwep2h6nYmugIfggDOC9uGpmDAHn/I/z52K7dHxi7xOkPPrezTsIbgNvFhV3zS7mzyObRxcLWA==}
+  '@rdfjs/parser-n3@2.2.0':
+    resolution: {integrity: sha512-gsQpcjAJ/uNoCt/SV/Eteuxjfbcmyh3cnh/Agixik8DqodLrcqxeeAJqDe+36jMxRQ08FDKTdKMxwKtTkS11vg==}
 
   '@rdfjs/prefix-map@0.1.2':
     resolution: {integrity: sha512-qapFYVPYyYepg0sFy7T512667iZsN9a3RNcyNBTBV+O8wrU3v/URQZOipCTNrEm1BXzZ7KCK1Yi8HrE1y+uRuQ==}
 
-  '@rdfjs/serializer-jsonld-ext@4.0.0':
-    resolution: {integrity: sha512-HP5DCmhyfVuQuk58AO5vzNY+dIFVHe2oHY8NX2K+3XmrTmu/yzrFzPbDeU9Cwr71XC4RifEMoksIg+8jnhxmfQ==}
+  '@rdfjs/serializer-jsonld-ext@4.0.2':
+    resolution: {integrity: sha512-l/A6gQgKWYYGOPbcVZWnaamqWPtShL4FDrEqh5F85Fw0PdSca7q0YOBpB8ihxKmiGmfXa+SB4M8l9iyEegcp7Q==}
 
   '@rdfjs/serializer-jsonld@2.0.1':
     resolution: {integrity: sha512-O8WzdY7THsse/nMsrMLd2e51ADHO2SIUrkiZ9Va/8W3lXeeeiwDRPMppWy/i9yL4q6EM8iMW1riV7E0mK3fsBQ==}
@@ -76,8 +69,8 @@ packages:
   '@rdfjs/serializer-ntriples@2.0.1':
     resolution: {integrity: sha512-G1ZI0qaN/MUHxeCwr59JscO2LdyIb6MNQdXOv7NFBZuodyHsxxhJRFmMVn+3SEXeNJbVeEEbWBrLglCUgJ8XjQ==}
 
-  '@rdfjs/serializer-turtle@1.1.3':
-    resolution: {integrity: sha512-xpN3FApu8Q1M1pDp8V+P/zNYdk6QUvtp2C6rkpiOdH84/8SsREx6PGPz/mVJJGehxZwy9TUb7xGZ0LWHHBLNEw==}
+  '@rdfjs/serializer-turtle@1.1.5':
+    resolution: {integrity: sha512-uvIFUOuMuk8JrJnng/tWKIQ+8XI6YLEms75YdvZ49LtIyyfbDqKz76EybgnD/zZYfMhVVkguKtheBC9h08g1PQ==}
 
   '@rdfjs/sink-map@2.0.1':
     resolution: {integrity: sha512-BwCTTsMN/tfQl6QzD2oHn9A08e4af+hlzAz/d5XXrlOkYMEDUAqFuh2Odj9EbayhAEeN4wA743Mj2yC0/s69rg==}
@@ -103,6 +96,9 @@ packages:
   '@rdfjs/types@1.1.0':
     resolution: {integrity: sha512-5zm8bN2/CC634dTcn/0AhTRLaQRjXDZs3QfcAsQKNturHT7XVWcKy/8p3P5gXl+YkZTAmy7T5M/LyiT/jbkENw==}
 
+  '@rdfjs/types@2.0.1':
+    resolution: {integrity: sha512-uyAzpugX7KekAXAHq26m3JlUIZJOC0uSBhpnefGV5i15bevDyyejoB7I+9MKeUrzXD8OOUI3+4FeV1wwQr5ihA==}
+
   '@rubensworks/saxes@6.0.1':
     resolution: {integrity: sha512-UW4OTIsOtJ5KSXo2Tchi4lhZqu+tlHrOAs4nNti7CrtB53kAZl3/hyrTi6HkMihxdbDM6m2Zc3swc/ZewEe1xw==}
     engines: {node: '>=v12.22.12'}
@@ -110,8 +106,8 @@ packages:
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
 
-  '@tpluscode/rdf-ns-builders@4.3.0':
-    resolution: {integrity: sha512-x3uh9mYwAU+PrALaDKhVjml1TCCWWduo6J8rybd9SMEEAoooXq1MYb13MRputjRT/kYaFyCND7LMobzhxZ/+bg==}
+  '@tpluscode/rdf-ns-builders@5.0.0':
+    resolution: {integrity: sha512-rtMFbArdief+s0z2A3TOb/gNe5O5xn9LDiEpilCf6lGYCUIfyqoOvZY80fS/eILwcF2Mj6cUQN1WBQ+1neJmaw==}
 
   '@types/clownface@2.0.8':
     resolution: {integrity: sha512-vomfitsRIuvw9zp/Xph8/AHPRBQ+7Ji/OnQUC3TOem+KzG/z2rCeEjpZH23wP7t0gjXZHPiZU1syFkf/oP3v8w==}
@@ -122,17 +118,20 @@ packages:
   '@types/jsonld@1.5.15':
     resolution: {integrity: sha512-PlAFPZjL+AuGYmwlqwKEL0IMP8M8RexH0NIPGfCVWSQ041H2rR/8OlyZSD7KsCVoN8vCfWdtWDBxX8yBVP+xow==}
 
-  '@types/node@18.19.39':
-    resolution: {integrity: sha512-nPwTRDKUctxw3di5b4TfT3I0sWDiWoPQCZjXhvdkINntwr8lcoVCKsTgnXeRubKIlfnV+eN/HYk6Jb40tbcEAQ==}
+  '@types/node@18.19.130':
+    resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
   '@types/node@20.14.10':
     resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
 
+  '@types/node@26.1.2':
+    resolution: {integrity: sha512-Vu4a5UFA9rIIFJ7rB/Vaafh9lrCQszopTCx6KjFboXTGQbPNasehVR5TEiithSDGyd1DEiUByggTZsg8jukeIg==}
+
   '@types/rdf-dataset-ext@1.0.8':
     resolution: {integrity: sha512-ngMGOzAm+yvrfTzFhlmPNa9lfWO72IkdqYRR+HNIPX3x+RPLf6qRpAi8GAZCg0rkpGt2JJqDQF3FgVxE6ykr/w==}
 
-  '@types/rdfjs__data-model@2.0.8':
-    resolution: {integrity: sha512-7OVjhmA8QPEdRReHFieKuqn2mbYx3ndEIEmh/6FkeJC8QCMJGVeSuRKEUVXbZGwP0rDKZuhQGozaRv3O1z1gPQ==}
+  '@types/rdfjs__data-model@2.0.9':
+    resolution: {integrity: sha512-rgQSlM9jr7XMZdC0xUIr0zsxf5FvdB4cxxzv+MlHm6uJGip5qi0q+BluNhakAzaM2I56nKLDqSE3I/XuOaHGnA==}
 
   '@types/rdfjs__dataset@2.0.7':
     resolution: {integrity: sha512-+GaYIL9C7N1N0HyH+obU4IXuL7DX+fXuf827aUQ2Vx2UghO47+OTxo2v3seEQj/1YHoHBfQFk5Y4P6Q7Ht4Hqw==}
@@ -140,8 +139,8 @@ packages:
   '@types/rdfjs__environment@1.0.0':
     resolution: {integrity: sha512-MDcnv3qfJvbHoEpUQXj5muT8g3e+xz1D8sGevrq3+Q4TzeEvQf5ijGX5l8485XFYrN/OBApgzXkHMZC04/kd5w==}
 
-  '@types/rdfjs__fetch-lite@3.0.10':
-    resolution: {integrity: sha512-5EokVEj3eJGBknxM3pFV8y6w/ZVMAqZkmHKFLz6zgLxonCmC/bHHXeCTZGE1+5Heji/4vc84vinZMaQ1+n7t6Q==}
+  '@types/rdfjs__fetch-lite@3.0.11':
+    resolution: {integrity: sha512-1bHxBn62bmTPq/HY9Jr+iKCdBp8RTEJ4WA0ycihghRF8zWQfw6T7E5CqdPi4nncmgF70LOz7jF/4jeLGdb6H2A==}
 
   '@types/rdfjs__formats@4.0.1':
     resolution: {integrity: sha512-Zj7hQEn5HeCj+pJCWshY2gqBcdBdwyc2j20Ht3PH91pkdRuG2AlGDD3N9PQ1oZ3+J6Q96rAlhxUbjQUp9+s3FQ==}
@@ -188,38 +187,45 @@ packages:
   '@types/readable-stream@4.0.15':
     resolution: {integrity: sha512-oAZ3kw+kJFkEqyh7xORZOku1YAKvsFTogRY8kVl4vHpEKiDkfnSA/My8haRE7fvmix5Zyy+1pwzOi7yycGLBJw==}
 
-  '@vocabulary/sh@1.1.5':
-    resolution: {integrity: sha512-8R4uxHLpwmp6l6szZdCtfQx0wRy64OHuOsYTDfhCsbJ773Uv6nCM2bYBtjjirZHN+2m3uHQWgtWOdvuu1jwmOA==}
+  '@types/readable-stream@4.0.24':
+    resolution: {integrity: sha512-NRvUNC/JFGPJvqdAfEve8oginbM6V08u5NzLWpG8MwA2kTPOLnqk+wpwuPT+mp3aUsxyuT6m2gnrPuHYCruzEg==}
+
+  '@vocabulary/sh@1.1.6':
+    resolution: {integrity: sha512-8IfAQoKh57THz8LA2+n1jaY/VC2XaqMNSsJgzBKSSrj20y5PSMAawb6dMsxoLxqDIPBDs1TFRl/9CijUnwbBUA==}
     peerDependencies:
-      '@rdfjs/types': ^1.0.0
+      '@rdfjs/types': ^2.0.0
 
   '@zazuko/env-core@1.1.2':
     resolution: {integrity: sha512-mnLG40utuT7jPBPLs6fJ0puhfagnXSj+S8t9+zUGs3YlrOq/7b2zr64Hi3p3etwDdApaQ0VgQuNIY9doaruS1Q==}
     peerDependencies:
       '@types/rdfjs__environment': ^1.0.0
 
-  '@zazuko/env-node@2.1.3':
-    resolution: {integrity: sha512-vaYbkMe0DsvpWEWBQpWPJ0mEYiFhwDGw8Caso1MmASUbHY/gH2tAA6BDv4LsCK/BrU4gWftUWz6uEsRP3FmdHA==}
+  '@zazuko/env-node@3.1.0':
+    resolution: {integrity: sha512-6hN+SWcU4m4soS8Bmxx4L3Fql0dnmDPpb2NOnQ8k3nDsu8EpFgyYEmlkzMlZhcJp8PuZY9lDpVFGw0SnIlM1Cw==}
     peerDependencies:
-      '@types/rdfjs__fetch-lite': ^3.0.6
+      '@types/rdfjs__fetch-lite': ^3.0.11
+      '@types/rdfjs__formats': ^4.0.1
 
-  '@zazuko/env@2.2.1':
-    resolution: {integrity: sha512-GqM/461f50Px1a8Sx3tfViZkACY9gZGe3iOizF9pIeRd7Ilx+xH+VNk9rmMlKPnk600m1LixrxGuirT28zQxVQ==}
+  '@zazuko/env@3.0.1':
+    resolution: {integrity: sha512-EMRTgMXXbBIw9Zh6s6JPB16/6hNd0IZ4tcQZbr88K3RwtX3Eza3JfRCTPwtY/iNKOMWzG2e/dkPswWwxU+Ic6g==}
     peerDependencies:
-      '@rdfjs/types': ^1.1.0
+      '@rdfjs/types': ^2
       '@types/clownface': ^2.0.0
-      '@types/rdf-dataset-ext': ^1
-      '@types/rdfjs__data-model': ^2.0.7
+      '@types/rdf-dataset-ext': ^1.0.8
+      '@types/rdfjs__data-model': ^2.0.9
       '@types/rdfjs__dataset': ^2.0.7
       '@types/rdfjs__environment': ^1.0.0
-      '@types/rdfjs__formats': ^4.0.0
+      '@types/rdfjs__formats': ^4.0.1
       '@types/rdfjs__namespace': ^2.0.10
-      '@types/rdfjs__term-map': ^2.0.9
-      '@types/rdfjs__term-set': ^2.0.8
-      '@types/rdfjs__traverser': ^0.1.3
+      '@types/rdfjs__term-map': ^2.0.10
+      '@types/rdfjs__term-set': ^2.0.9
+      '@types/rdfjs__traverser': ^0.1.5
 
-  '@zazuko/prefixes@2.2.0':
-    resolution: {integrity: sha512-mmRS+urGVMcAP5edzFq0V+B2PbbpEklP7BZGVF0+82ClczTwgpIL1tZy2mRfudwRYoAe+WkyWXDnlArPpdzLIg==}
+  '@zazuko/prefixes@2.6.1':
+    resolution: {integrity: sha512-fbOadP7twxt0ZYT9mgIC+xQMk6f3pYYLI5a/2UJ/mc/ygqb/NoVv2ryK3lTtoi74xwkdpUeDwIuFQSosowzUgg==}
+
+  '@zazuko/rdf-fetch@1.0.2':
+    resolution: {integrity: sha512-y2W6Lo/o6sE4cnjc/KZg4u3fFMW4IB1mysm2QZBcbyC7qTTAAISZibc2j5FabCjdLMSOkvmp0Z0TAXHdhioX7A==}
 
   '@zazuko/rdf-utils-fs@3.3.1':
     resolution: {integrity: sha512-4HjTbJUwiCFanMMcaaZkLIkWUdVjXSQstAyxnfzsUOmh8Q43iVBL+mYAl17zoi47III0POL6hitRsN1JJ5tUFg==}
@@ -232,8 +238,8 @@ packages:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
     engines: {node: '>=6.5'}
 
-  ajv@8.17.1:
-    resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
+  ajv@8.20.0:
+    resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -244,26 +250,23 @@ packages:
   canonicalize@1.0.8:
     resolution: {integrity: sha512-0CNTVCLZggSh7bc5VkX5WWPWO+cyZbNd07IHIsSXLia/eAq+r836hgk+8BKoEh7949Mda87VUOitx5OddVj64A==}
 
+  canonicalize@2.1.0:
+    resolution: {integrity: sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ==}
+    hasBin: true
+
   cli-color@2.0.4:
     resolution: {integrity: sha512-zlnpg0jNcibNrO7GG9IeHH7maWFeCz+Ja1wx/7tZNU5ASSSSZ+/qZciM0/LHCYxSdqv5h2sdbQ/PXYdOuetXvA==}
     engines: {node: '>=0.10'}
 
-  clownface@2.0.2:
-    resolution: {integrity: sha512-HjTYqVXiCrw4FmoAWF46aQ3c2OmdVLoqZrAGkowdWWUoBBIcBht55pOxkyvoVe2BsPE/HqMzfnu51JpgqM4KEg==}
-
-  cross-fetch@3.1.8:
-    resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
+  clownface@2.0.3:
+    resolution: {integrity: sha512-E76TBJ7CgU9+/5paSAvuNdMO+fzFThnvRVtidosktYppYkXM8V7tid8Ezzo8S1OmoWxKUam3yfkZlfCid4OiJQ==}
 
   d@1.0.2:
     resolution: {integrity: sha512-MOqHvMWF9/9MX6nza0KgvFH4HpMU0EF5uUDXqX/BtxtU8NfB0QzRtJ8Oe/6SuS4kbhyzVJwjd97EA4PKrzJ8bw==}
     engines: {node: '>=0.12'}
 
-  data-uri-to-buffer@4.0.1:
-    resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==}
-    engines: {node: '>= 12'}
-
-  debug@4.3.5:
-    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -309,27 +312,19 @@ packages:
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  fast-uri@3.0.1:
-    resolution: {integrity: sha512-MWipKbbYiYI0UC7cl8m/i/IWTqfC8YXsqjzybjddLsFjStroQzsHXkc73JutMvBiXmOvapk+axIl79ig5t55Bw==}
-
-  fetch-blob@3.2.0:
-    resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
-    engines: {node: ^12.20 || >= 14.13}
-
-  formdata-polyfill@4.0.10:
-    resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==}
-    engines: {node: '>=12.20.0'}
+  fast-uri@3.1.5:
+    resolution: {integrity: sha512-gHwA1O9LDIcKunMKhObS/HimwtehO1nPUECKAu5TpKgaO19fcWEl4bliWe1jWxVFvIXztJjjQ4L8XQ1EU9f7Jw==}
 
   get-stream@9.0.1:
     resolution: {integrity: sha512-kVCxPF3vQM/N0B1PmoqVUqgHP+EeVjmZSQn+1oCRPxd2P21P2F19lIgbR3HBosbB1PUhOAoctJnfEn2GbN2eZA==}
     engines: {node: '>=18'}
 
-  globals@15.9.0:
-    resolution: {integrity: sha512-SmSKyLLKFbSr6rptvP8izbyxJL4ILwqO9Jg23UA0sDlGlu58V59D1//I3vlc0KJphVdUR7vMjHIplYnzBxorQA==}
+  globals@17.9.0:
+    resolution: {integrity: sha512-m/MvAW61QVU5VDNF1Vj8axt016h8w7L5TU1e9zlab7XIttAT2YAlCwl75K1fOqvMM9apmD7lbCIRhpfkhmxhCg==}
     engines: {node: '>=18'}
 
-  http-link-header@1.1.3:
-    resolution: {integrity: sha512-3cZ0SRL8fb9MUlU3mKM61FcQvPfXx2dBrZW3Vbg5CXa8jFlK8OaEpePenLe1oEXQduhz8b0QjsqfS59QP4AJDQ==}
+  http-link-header@1.1.4:
+    resolution: {integrity: sha512-xT3GPW6/ZbGuw4UvwHqErSCEjNUlwbQJuZn9/q5U4WEKfp2kENVCAlousG1zLxHeaQ/ffOHUNpWamvkbBW0eNw==}
     engines: {node: '>=6.0.0'}
 
   ieee754@1.2.1:
@@ -345,33 +340,20 @@ packages:
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
 
-  jsonld-context-parser@2.4.0:
-    resolution: {integrity: sha512-ZYOfvh525SdPd9ReYY58dxB3E2RUEU4DJ6ZibO8AitcowPeBH4L5rCAitE2om5G1P+HMEgYEYEr4EZKbVN4tpA==}
+  jsonld-context-parser@3.1.0:
+    resolution: {integrity: sha512-BfgNJ/t9jjK7Lun9XRCJM6YeNqDk8B6/lg+KS8rzhXAOtS0FvoClSmtLvF24V1M2CDYRy2LcEBt0ilxqSX93WA==}
     hasBin: true
 
-  jsonld-streaming-parser@3.4.0:
-    resolution: {integrity: sha512-897CloyQgQidfkB04dLM5XaAXVX/cN9A2hvgHJo4y4jRhIpvg3KLMBBfcrswepV2N3T8c/Rp2JeFdWfVsbVZ7g==}
+  jsonld-streaming-parser@5.0.1:
+    resolution: {integrity: sha512-Rf230DRAWe5p1H4e7phk1vo4FHEMOmC5xVcIywKJBBcwy6zaJWFcAvPcwngufNTdJs7dpTMbKQDjp4TYDpMKUQ==}
 
-  jsonld@8.3.2:
-    resolution: {integrity: sha512-MwBbq95szLwt8eVQ1Bcfwmgju/Y5P2GdtlHE2ncyfuYjIdEhluUVyj1eudacf1mOkWIoS9GpDBTECqhmq7EOaA==}
-    engines: {node: '>=14'}
+  jsonld@9.0.0:
+    resolution: {integrity: sha512-pjMIdkXfC1T2wrX9B9i2uXhGdyCmgec3qgMht+TDj+S0qX3bjWMQUfL7NeqEhuRTi8G5ESzmL9uGlST7nzSEWg==}
+    engines: {node: '>=18'}
 
-  ky-universal@0.11.0:
-    resolution: {integrity: sha512-65KyweaWvk+uKKkCrfAf+xqN2/epw1IJDtlyCPxYffFCMR8u1sp2U65NtWpnozYfZxQ6IUzIlvUcw+hQ82U2Xw==}
-    engines: {node: '>=14.16'}
-    peerDependencies:
-      ky: '>=0.31.4'
-      web-streams-polyfill: '>=3.2.1'
-    peerDependenciesMeta:
-      web-streams-polyfill:
-        optional: true
-
-  ky@0.33.3:
-    resolution: {integrity: sha512-CasD9OCEQSFIam2U8efFK81Yeg8vNMTBUqtMOHlrcWQHqUX3HeCl9Dr31u4toV7emlH8Mymk5+9p0lL6mKb/Xw==}
-    engines: {node: '>=14.16'}
-
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  ky@1.14.3:
+    resolution: {integrity: sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==}
+    engines: {node: '>=18'}
 
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
@@ -384,72 +366,70 @@ packages:
     resolution: {integrity: sha512-DGqD7Hjpi/1or4F/aYAspXKNm5Yili0QDAFAY4QYvpqpgiY6+1jOfqpmByzjxbWd/T9mChbCArXAbDAsTm5oXA==}
     engines: {node: '>=0.12'}
 
-  ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  n3@1.17.4:
-    resolution: {integrity: sha512-G5RR9PKLJXQU1uDJ2cZq+zp23V5XruqWhAGlCpF2/8kLiPbqEKOXDXgOLuoMqFwdxO/oBE2h4KNGQUp0aQ0OLA==}
+  n3@2.1.2:
+    resolution: {integrity: sha512-8DD60rrjJDmeNgLV/zlTiWubxHXLj7te9+uh/IS611fUIgduz4SoeqkOwCQPPpHZ2E/Y26KE+9rm8q8A5mrWvQ==}
     engines: {node: '>=12.0'}
 
   next-tick@1.1.0:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
 
-  node-domexception@1.0.0:
-    resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
-    engines: {node: '>=10.5.0'}
-
-  node-fetch@2.7.0:
-    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-
-  node-fetch@3.3.2:
-    resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
-  nodeify-fetch@3.1.0:
-    resolution: {integrity: sha512-ZV81vM//sEgTgXwVZlOONzcOCdTGQ53mV65FVSNXgPQHa8oCwRLtLbnGxL/1S/Yw90bcXUDKMz00jEnaeazo+A==}
-
   process@0.11.10:
     resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
     engines: {node: '>= 0.6.0'}
-
-  queue-microtask@1.2.3:
-    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
   rdf-canonize@3.4.0:
     resolution: {integrity: sha512-fUeWjrkOO0t1rg7B2fdyDTvngj+9RlUyL92vOdiB7c0FPguWVsniIMjEtHH+meLBO9rzkUlUzBVXgWrjI8P9LA==}
     engines: {node: '>=12'}
 
+  rdf-canonize@5.0.0:
+    resolution: {integrity: sha512-g8OUrgMXAR9ys/ZuJVfBr05sPPoMA7nHIVs8VEvg9QwM5W4GR2qSFEEHjsyHF1eWlBaf8Ev40WNjQFQ+nJTO3w==}
+    engines: {node: '>=18'}
+
   rdf-data-factory@1.1.2:
     resolution: {integrity: sha512-TfQD63Lokabd09ES1jAtKK8AA6rkr9rwyUBGo6olOt1CE0Um36CUQIqytyf0am2ouBPR0l7SaHxCiMcPGHkt1A==}
+
+  rdf-data-factory@2.0.2:
+    resolution: {integrity: sha512-WzPoYHwQYWvIP9k+7IBLY1b4nIDitzAK4mA37WumAF/Cjvu/KOtYJH9IPZnUTWNSd5K2+pq4vrcE9WZC4sRHhg==}
 
   rdf-dataset-ext@1.1.0:
     resolution: {integrity: sha512-CH85RfRKN9aSlbju8T7aM8hgCSWMBsh2eh/tGxUUtWMN+waxi6iFDt8/r4PAEmKaEA82guimZJ4ISbmJ2rvWQg==}
     deprecated: rdf-dataset-ext is deprecated. Switching to rdf-ext is recommended.
 
-  rdf-literal@1.3.2:
-    resolution: {integrity: sha512-79Stlu3sXy0kq9/decHFLf3xNPuY6sfhFPhd/diWErgaFr0Ekyg38Vh9bnVcqDYu48CFRi0t+hrFii49n92Hbw==}
+  rdf-literal@2.0.0:
+    resolution: {integrity: sha512-jlQ+h7EvnXmncmk8OzOYR8T3gNfd4g0LQXbflHkEkancic8dh0Tdt5RiRq8vUFndjIeNHt1RWeA5TAj6rgrtng==}
 
-  rdf-validate-datatype@0.2.1:
-    resolution: {integrity: sha512-DpREnmoWDxC80KyslZeBPLQb3ztyeiOolT4uCl58tCju2KHJu4j5vonmVVdEJh2Mpad5UY57v6sSM/hfSTFGKQ==}
+  rdf-validate-datatype@0.2.2:
+    resolution: {integrity: sha512-mH9qL8i0WBbZ6HJCA26BB6V+WV2MraKvitez3SV0QegBWVQ4wYO49CgfFBzoAYg6tlnhFXl9MkrOAQ07X2N1FA==}
 
-  rdf-validate-shacl@0.5.5:
-    resolution: {integrity: sha512-oN6LQh7bzdQEkRMPCW332hxkRH9YANJuylcId41mivJar68vjk8Q4yAjAELxwrZsY2FsGWH4r9x5sPGqKMCUPg==}
+  rdf-validate-shacl@0.6.5:
+    resolution: {integrity: sha512-rwIibopSixDE8ecA9x0c7oTVxdMWxGiJh7h3uJ+WS2h4lq2nx3DZVO7rJvwa5kZpDq9QEFPoyZINAUyfaaoN4Q==}
 
   rdfxml-streaming-parser@2.4.0:
     resolution: {integrity: sha512-f+tdI1wxOiPzMbFWRtOwinwPsqac0WIN80668yFKcVdFCSTGOWTM70ucQGUSdDZZo7pce/UvZgV0C3LDj0P7tg==}
+
+  rdfxml-streaming-parser@3.2.0:
+    resolution: {integrity: sha512-SgQGK0EkbXd0jQ1PZk7dEpfDxf4CZpezkO6cTuGWesa9twdWaaW5elMoNBcbMT+2tOZC1EYZjs0JaXx0HnifcQ==}
 
   readable-stream@4.5.2:
     resolution: {integrity: sha512-yjavECdqeZ3GLXNgRXgeQEdz9fvDDkNKyHnbHRFtOr7/LcfgBcmct7t/ET+HaCTqfh06OzoAxrkN/IfjJBVe+g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
+  readable-stream@4.7.0:
+    resolution: {integrity: sha512-oIGGmcpTLwPga8Bn6/Z75SVaH1z5dUut2ibSyAMVhmUggWpmDn2dapB0n7f8nwaSiRtepAsfJyfXIO5DCVAODg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  readable-web-to-node-stream@5.0.0:
+    resolution: {integrity: sha512-BYDNE3p8516xCm5yCkwXt4lTLSjYAFzPtMot7dwpNz3tb5nwcLUfq9N1yiaAYFOA+9BVKi13aOIUPdv96t/Xzg==}
+    engines: {node: '>=18'}
+
   relative-to-absolute-iri@1.0.7:
     resolution: {integrity: sha512-Xjyl4HmIzg2jzK/Un2gELqbcE8Fxy85A/aLSHE6PE/3+OGsFwmKVA1vRyGaz6vLWSqLDMHA+5rjD/xbibSQN1Q==}
+
+  relative-to-absolute-iri@1.0.8:
+    resolution: {integrity: sha512-U1TmhrhCmXKkDL9mI8gBbF5TN6TKcuv28k5+H3gMCAjoz0TyyHAICHlaGDZsTEBSu2Y3HhDKc8e6X9n33qeIqA==}
 
   require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
@@ -474,31 +454,21 @@ packages:
     resolution: {integrity: sha512-wFH7+SEAcKfJpfLPkrgMPvvwnEtj8W4IurvEyrKsDleXnKLCDw71w8jltvfLa8Rm4qQxxT4jmDBYbJG/z7qoww==}
     engines: {node: '>=0.12'}
 
-  tr46@0.0.3:
-    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
-
   type@2.7.3:
     resolution: {integrity: sha512-8j+1QmAbPvLZow5Qpi6NCaN8FB60p/6x8/vfNqOk/hC+HuvFZhL4+WfekuhQLiqFZXOgQdrs3B+XxEmCc6b3FQ==}
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici@5.28.4:
-    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
-    engines: {node: '>=14.0'}
+  undici-types@8.3.0:
+    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+
+  undici@6.28.0:
+    resolution: {integrity: sha512-LIY910g9TI13YS95lrMFrs8Rm/u/irgHeTWoKCoteeJ04CUJ92eEfj0rVn+7VKMPBpUPiUoBKfhNyLI23EE/KA==}
+    engines: {node: '>=18.17'}
 
   validate-iri@1.0.1:
     resolution: {integrity: sha512-gLXi7351CoyVVQw8XE5sgpYawRKatxE7kj/xmCxXOZS1kMdtcqC0ILIqLuVEVnAUQSL/evOGG3eQ+8VgbdnstA==}
-
-  web-streams-polyfill@3.3.3:
-    resolution: {integrity: sha512-d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==}
-    engines: {node: '>= 8'}
-
-  webidl-conversions@3.0.1:
-    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
-
-  whatwg-url@5.0.0:
-    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
   xmlchars@2.2.0:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
@@ -508,103 +478,85 @@ packages:
 
 snapshots:
 
-  '@bergos/jsonparse@1.4.1':
+  '@bergos/jsonparse@1.4.2':
     dependencies:
       buffer: 6.0.3
 
-  '@digitalbazaar/http-client@3.4.1(web-streams-polyfill@3.3.3)':
+  '@digitalbazaar/http-client@4.3.0':
     dependencies:
-      ky: 0.33.3
-      ky-universal: 0.11.0(ky@0.33.3)(web-streams-polyfill@3.3.3)
-      undici: 5.28.4
-    transitivePeerDependencies:
-      - web-streams-polyfill
+      ky: 1.14.3
+      undici: 6.28.0
 
-  '@fastify/busboy@2.1.1': {}
+  '@rdfjs/data-model@2.1.2': {}
 
-  '@rdfjs/data-model@2.0.2': {}
-
-  '@rdfjs/dataset@2.0.2': {}
+  '@rdfjs/dataset@2.0.3': {}
 
   '@rdfjs/environment@1.0.0': {}
 
-  '@rdfjs/fetch-lite@3.2.3':
+  '@rdfjs/formats@4.0.1':
     dependencies:
-      is-stream: 4.0.1
-      nodeify-fetch: 3.1.0
-      readable-stream: 4.5.2
-
-  '@rdfjs/formats@4.0.0(web-streams-polyfill@3.3.3)':
-    dependencies:
-      '@rdfjs/parser-jsonld': 2.1.1
-      '@rdfjs/parser-n3': 2.0.2
+      '@rdfjs/parser-jsonld': 2.1.3
+      '@rdfjs/parser-n3': 2.2.0
       '@rdfjs/serializer-jsonld': 2.0.1
-      '@rdfjs/serializer-jsonld-ext': 4.0.0(web-streams-polyfill@3.3.3)
+      '@rdfjs/serializer-jsonld-ext': 4.0.2
       '@rdfjs/serializer-ntriples': 2.0.1
-      '@rdfjs/serializer-turtle': 1.1.3
+      '@rdfjs/serializer-turtle': 1.1.5
       '@rdfjs/sink-map': 2.0.1
-      rdfxml-streaming-parser: 2.4.0
-    transitivePeerDependencies:
-      - encoding
-      - web-streams-polyfill
+      rdfxml-streaming-parser: 3.2.0
 
   '@rdfjs/namespace@2.0.1':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
 
-  '@rdfjs/parser-jsonld@2.1.1':
+  '@rdfjs/parser-jsonld@2.1.3':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
       '@rdfjs/sink': 2.0.1
       duplex-to: 2.0.0
-      jsonld-streaming-parser: 3.4.0
-      readable-stream: 4.5.2
-    transitivePeerDependencies:
-      - encoding
+      jsonld-streaming-parser: 5.0.1
+      readable-stream: 4.7.0
 
-  '@rdfjs/parser-n3@2.0.2':
+  '@rdfjs/parser-n3@2.2.0':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
       '@rdfjs/sink': 2.0.1
       duplex-to: 2.0.0
-      n3: 1.17.4
-      readable-stream: 4.5.2
+      n3: 2.1.2
+      readable-stream: 4.7.0
 
   '@rdfjs/prefix-map@0.1.2':
     dependencies:
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
-  '@rdfjs/serializer-jsonld-ext@4.0.0(web-streams-polyfill@3.3.3)':
+  '@rdfjs/serializer-jsonld-ext@4.0.2':
     dependencies:
       '@rdfjs/sink': 2.0.1
-      jsonld: 8.3.2(web-streams-polyfill@3.3.3)
-      readable-stream: 4.5.2
+      jsonld: 9.0.0
+      readable-stream: 4.7.0
       stream-chunks: 1.0.0
-    transitivePeerDependencies:
-      - web-streams-polyfill
 
   '@rdfjs/serializer-jsonld@2.0.1':
     dependencies:
       '@rdfjs/sink': 2.0.1
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
   '@rdfjs/serializer-ntriples@2.0.1':
     dependencies:
       '@rdfjs/sink': 2.0.1
       '@rdfjs/to-ntriples': 3.0.1
       duplex-to: 2.0.0
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
-  '@rdfjs/serializer-turtle@1.1.3':
+  '@rdfjs/serializer-turtle@1.1.5':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
       '@rdfjs/namespace': 2.0.1
       '@rdfjs/prefix-map': 0.1.2
       '@rdfjs/sink': 2.0.1
       '@rdfjs/term-map': 2.0.2
       '@rdfjs/to-ntriples': 3.0.1
       '@rdfjs/tree': 0.2.1
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
       stream-chunks: 1.0.0
 
   '@rdfjs/sink-map@2.0.1': {}
@@ -635,19 +587,23 @@ snapshots:
     dependencies:
       '@types/node': 20.14.10
 
+  '@rdfjs/types@2.0.1':
+    dependencies:
+      '@types/node': 20.14.10
+
   '@rubensworks/saxes@6.0.1':
     dependencies:
       xmlchars: 2.2.0
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@tpluscode/rdf-ns-builders@4.3.0':
+  '@tpluscode/rdf-ns-builders@5.0.0':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
       '@rdfjs/namespace': 2.0.1
-      '@rdfjs/types': 1.1.0
+      '@rdfjs/types': 2.0.1
       '@types/rdfjs__namespace': 2.0.10
-      '@zazuko/prefixes': 2.2.0
+      '@zazuko/prefixes': 2.6.1
 
   '@types/clownface@2.0.8':
     dependencies:
@@ -656,11 +612,11 @@ snapshots:
 
   '@types/http-link-header@1.0.7':
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 26.1.2
 
   '@types/jsonld@1.5.15': {}
 
-  '@types/node@18.19.39':
+  '@types/node@18.19.130':
     dependencies:
       undici-types: 5.26.5
 
@@ -668,12 +624,16 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
+  '@types/node@26.1.2':
+    dependencies:
+      undici-types: 8.3.0
+
   '@types/rdf-dataset-ext@1.0.8':
     dependencies:
       '@rdfjs/types': 1.1.0
       '@types/readable-stream': 4.0.15
 
-  '@types/rdfjs__data-model@2.0.8':
+  '@types/rdfjs__data-model@2.0.9':
     dependencies:
       '@rdfjs/types': 1.1.0
 
@@ -686,7 +646,7 @@ snapshots:
       '@rdfjs/types': 1.1.0
       '@types/node': 20.14.10
 
-  '@types/rdfjs__fetch-lite@3.0.10':
+  '@types/rdfjs__fetch-lite@3.0.11':
     dependencies:
       '@rdfjs/types': 1.1.0
       '@types/node': 20.14.10
@@ -768,22 +728,27 @@ snapshots:
       '@types/node': 20.14.10
       safe-buffer: 5.1.2
 
-  '@vocabulary/sh@1.1.5(@rdfjs/types@1.1.0)':
+  '@types/readable-stream@4.0.24':
     dependencies:
-      '@rdfjs/types': 1.1.0
+      '@types/node': 26.1.2
+
+  '@vocabulary/sh@1.1.6(@rdfjs/types@2.0.1)':
+    dependencies:
+      '@rdfjs/types': 2.0.1
 
   '@zazuko/env-core@1.1.2(@types/rdfjs__environment@1.0.0)':
     dependencies:
       '@rdfjs/environment': 1.0.0
       '@types/rdfjs__environment': 1.0.0
 
-  '@zazuko/env-node@2.1.3(@rdfjs/types@1.1.0)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.8)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.10)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)(web-streams-polyfill@3.3.3)':
+  '@zazuko/env-node@3.1.0(@rdfjs/types@2.0.1)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.9)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)':
     dependencies:
-      '@rdfjs/fetch-lite': 3.2.3
-      '@rdfjs/formats': 4.0.0(web-streams-polyfill@3.3.3)
-      '@types/rdfjs__fetch-lite': 3.0.10
-      '@zazuko/env': 2.2.1(@rdfjs/types@1.1.0)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.8)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)(web-streams-polyfill@3.3.3)
-      '@zazuko/rdf-utils-fs': 3.3.1(@rdfjs/types@1.1.0)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)
+      '@rdfjs/formats': 4.0.1
+      '@types/rdfjs__fetch-lite': 3.0.11
+      '@types/rdfjs__formats': 4.0.1
+      '@zazuko/env': 3.0.1(@rdfjs/types@2.0.1)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.9)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)
+      '@zazuko/rdf-fetch': 1.0.2
+      '@zazuko/rdf-utils-fs': 3.3.1(@rdfjs/types@2.0.1)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)
     transitivePeerDependencies:
       - '@rdfjs/types'
       - '@types/clownface'
@@ -791,28 +756,25 @@ snapshots:
       - '@types/rdfjs__data-model'
       - '@types/rdfjs__dataset'
       - '@types/rdfjs__environment'
-      - '@types/rdfjs__formats'
       - '@types/rdfjs__namespace'
       - '@types/rdfjs__term-map'
       - '@types/rdfjs__term-set'
       - '@types/rdfjs__traverser'
-      - encoding
-      - web-streams-polyfill
 
-  '@zazuko/env@2.2.1(@rdfjs/types@1.1.0)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.8)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)(web-streams-polyfill@3.3.3)':
+  '@zazuko/env@3.0.1(@rdfjs/types@2.0.1)(@types/clownface@2.0.8)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__data-model@2.0.9)(@types/rdfjs__dataset@2.0.7)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)':
     dependencies:
-      '@rdfjs/data-model': 2.0.2
-      '@rdfjs/dataset': 2.0.2
-      '@rdfjs/formats': 4.0.0(web-streams-polyfill@3.3.3)
+      '@rdfjs/data-model': 2.1.2
+      '@rdfjs/dataset': 2.0.3
+      '@rdfjs/formats': 4.0.1
       '@rdfjs/namespace': 2.0.1
       '@rdfjs/term-map': 2.0.2
       '@rdfjs/term-set': 2.0.3
       '@rdfjs/traverser': 0.1.4
-      '@rdfjs/types': 1.1.0
-      '@tpluscode/rdf-ns-builders': 4.3.0
+      '@rdfjs/types': 2.0.1
+      '@tpluscode/rdf-ns-builders': 5.0.0
       '@types/clownface': 2.0.8
       '@types/rdf-dataset-ext': 1.0.8
-      '@types/rdfjs__data-model': 2.0.8
+      '@types/rdfjs__data-model': 2.0.9
       '@types/rdfjs__dataset': 2.0.7
       '@types/rdfjs__environment': 1.0.0
       '@types/rdfjs__formats': 4.0.1
@@ -821,31 +783,35 @@ snapshots:
       '@types/rdfjs__term-set': 2.0.9
       '@types/rdfjs__traverser': 0.1.5
       '@zazuko/env-core': 1.1.2(@types/rdfjs__environment@1.0.0)
-      '@zazuko/prefixes': 2.2.0
-      clownface: 2.0.2
+      '@zazuko/prefixes': 2.6.1
+      clownface: 2.0.3
       get-stream: 9.0.1
       rdf-dataset-ext: 1.1.0
-    transitivePeerDependencies:
-      - encoding
-      - web-streams-polyfill
 
-  '@zazuko/prefixes@2.2.0': {}
+  '@zazuko/prefixes@2.6.1': {}
 
-  '@zazuko/rdf-utils-fs@3.3.1(@rdfjs/types@1.1.0)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)':
+  '@zazuko/rdf-fetch@1.0.2':
     dependencies:
-      '@rdfjs/types': 1.1.0
+      '@types/rdfjs__fetch-lite': 3.0.11
+      is-stream: 4.0.1
+      readable-stream: 4.7.0
+      readable-web-to-node-stream: 5.0.0
+
+  '@zazuko/rdf-utils-fs@3.3.1(@rdfjs/types@2.0.1)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__formats@4.0.1)':
+    dependencies:
+      '@rdfjs/types': 2.0.1
       '@types/rdfjs__environment': 1.0.0
       '@types/rdfjs__formats': 4.0.1
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
   abort-controller@3.0.0:
     dependencies:
       event-target-shim: 5.0.1
 
-  ajv@8.17.1:
+  ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.0.1
+      fast-uri: 3.1.5
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -858,6 +824,8 @@ snapshots:
 
   canonicalize@1.0.8: {}
 
+  canonicalize@2.1.0: {}
+
   cli-color@2.0.4:
     dependencies:
       d: 1.0.2
@@ -866,28 +834,20 @@ snapshots:
       memoizee: 0.4.17
       timers-ext: 0.1.8
 
-  clownface@2.0.2:
+  clownface@2.0.3:
     dependencies:
-      '@rdfjs/data-model': 2.0.2
+      '@rdfjs/data-model': 2.1.2
       '@rdfjs/environment': 1.0.0
       '@rdfjs/namespace': 2.0.1
-
-  cross-fetch@3.1.8:
-    dependencies:
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
 
   d@1.0.2:
     dependencies:
       es5-ext: 0.10.64
       type: 2.7.3
 
-  data-uri-to-buffer@4.0.1: {}
-
-  debug@4.3.5:
+  debug@4.4.3:
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
 
   duplex-to@2.0.0: {}
 
@@ -938,25 +898,16 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
-  fast-uri@3.0.1: {}
-
-  fetch-blob@3.2.0:
-    dependencies:
-      node-domexception: 1.0.0
-      web-streams-polyfill: 3.3.3
-
-  formdata-polyfill@4.0.10:
-    dependencies:
-      fetch-blob: 3.2.0
+  fast-uri@3.1.5: {}
 
   get-stream@9.0.1:
     dependencies:
       '@sec-ant/readable-stream': 0.4.1
       is-stream: 4.0.1
 
-  globals@15.9.0: {}
+  globals@17.9.0: {}
 
-  http-link-header@1.1.3: {}
+  http-link-header@1.1.4: {}
 
   ieee754@1.2.1: {}
 
@@ -966,51 +917,33 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  jsonld-context-parser@2.4.0:
+  jsonld-context-parser@3.1.0:
     dependencies:
       '@types/http-link-header': 1.0.7
-      '@types/node': 18.19.39
-      cross-fetch: 3.1.8
-      http-link-header: 1.1.3
-      relative-to-absolute-iri: 1.0.7
-    transitivePeerDependencies:
-      - encoding
+      '@types/node': 18.19.130
+      http-link-header: 1.1.4
+      relative-to-absolute-iri: 1.0.8
 
-  jsonld-streaming-parser@3.4.0:
+  jsonld-streaming-parser@5.0.1:
     dependencies:
-      '@bergos/jsonparse': 1.4.1
-      '@rdfjs/types': 1.1.0
+      '@bergos/jsonparse': 1.4.2
       '@types/http-link-header': 1.0.7
-      '@types/readable-stream': 2.3.15
+      '@types/readable-stream': 4.0.24
       buffer: 6.0.3
       canonicalize: 1.0.8
-      http-link-header: 1.1.3
-      jsonld-context-parser: 2.4.0
-      rdf-data-factory: 1.1.2
-      readable-stream: 4.5.2
-    transitivePeerDependencies:
-      - encoding
+      http-link-header: 1.1.4
+      jsonld-context-parser: 3.1.0
+      rdf-data-factory: 2.0.2
+      readable-stream: 4.7.0
 
-  jsonld@8.3.2(web-streams-polyfill@3.3.3):
+  jsonld@9.0.0:
     dependencies:
-      '@digitalbazaar/http-client': 3.4.1(web-streams-polyfill@3.3.3)
-      canonicalize: 1.0.8
+      '@digitalbazaar/http-client': 4.3.0
+      canonicalize: 2.1.0
       lru-cache: 6.0.0
-      rdf-canonize: 3.4.0
-    transitivePeerDependencies:
-      - web-streams-polyfill
+      rdf-canonize: 5.0.0
 
-  ky-universal@0.11.0(ky@0.33.3)(web-streams-polyfill@3.3.3):
-    dependencies:
-      abort-controller: 3.0.0
-      ky: 0.33.3
-      node-fetch: 3.3.2
-    optionalDependencies:
-      web-streams-polyfill: 3.3.3
-
-  ky@0.33.3: {}
-
-  lodash@4.17.21: {}
+  ky@1.14.3: {}
 
   lru-cache@6.0.0:
     dependencies:
@@ -1031,40 +964,22 @@ snapshots:
       next-tick: 1.1.0
       timers-ext: 0.1.8
 
-  ms@2.1.2: {}
+  ms@2.1.3: {}
 
-  n3@1.17.4:
+  n3@2.1.2:
     dependencies:
       buffer: 6.0.3
-      queue-microtask: 1.2.3
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
   next-tick@1.1.0: {}
 
-  node-domexception@1.0.0: {}
-
-  node-fetch@2.7.0:
-    dependencies:
-      whatwg-url: 5.0.0
-
-  node-fetch@3.3.2:
-    dependencies:
-      data-uri-to-buffer: 4.0.1
-      fetch-blob: 3.2.0
-      formdata-polyfill: 4.0.10
-
-  nodeify-fetch@3.1.0:
-    dependencies:
-      lodash: 4.17.21
-      node-fetch: 3.3.2
-      readable-stream: 4.5.2
-      stream-chunks: 1.0.0
-
   process@0.11.10: {}
 
-  queue-microtask@1.2.3: {}
-
   rdf-canonize@3.4.0:
+    dependencies:
+      setimmediate: 1.0.5
+
+  rdf-canonize@5.0.0:
     dependencies:
       setimmediate: 1.0.5
 
@@ -1072,35 +987,39 @@ snapshots:
     dependencies:
       '@rdfjs/types': 1.1.0
 
+  rdf-data-factory@2.0.2:
+    dependencies:
+      '@rdfjs/types': 2.0.1
+
   rdf-dataset-ext@1.1.0:
     dependencies:
       rdf-canonize: 3.4.0
-      readable-stream: 4.5.2
+      readable-stream: 4.7.0
 
-  rdf-literal@1.3.2:
+  rdf-literal@2.0.0:
     dependencies:
-      '@rdfjs/types': 1.1.0
-      rdf-data-factory: 1.1.2
+      rdf-data-factory: 2.0.2
 
-  rdf-validate-datatype@0.2.1:
+  rdf-validate-datatype@0.2.2:
     dependencies:
       '@rdfjs/term-map': 2.0.2
-      '@tpluscode/rdf-ns-builders': 4.3.0
+      '@tpluscode/rdf-ns-builders': 5.0.0
 
-  rdf-validate-shacl@0.5.5(@rdfjs/types@1.1.0):
+  rdf-validate-shacl@0.6.5:
     dependencies:
-      '@rdfjs/data-model': 2.0.2
-      '@rdfjs/dataset': 2.0.2
+      '@rdfjs/data-model': 2.1.2
+      '@rdfjs/dataset': 2.0.3
       '@rdfjs/environment': 1.0.0
       '@rdfjs/namespace': 2.0.1
       '@rdfjs/term-set': 2.0.3
-      '@vocabulary/sh': 1.1.5(@rdfjs/types@1.1.0)
-      clownface: 2.0.2
-      debug: 4.3.5
-      rdf-literal: 1.3.2
-      rdf-validate-datatype: 0.2.1
+      '@rdfjs/types': 2.0.1
+      '@vocabulary/sh': 1.1.6(@rdfjs/types@2.0.1)
+      clownface: 2.0.3
+      debug: 4.4.3
+      rdf-dataset-ext: 1.1.0
+      rdf-literal: 2.0.0
+      rdf-validate-datatype: 0.2.2
     transitivePeerDependencies:
-      - '@rdfjs/types'
       - supports-color
 
   rdfxml-streaming-parser@2.4.0:
@@ -1114,6 +1033,16 @@ snapshots:
       relative-to-absolute-iri: 1.0.7
       validate-iri: 1.0.1
 
+  rdfxml-streaming-parser@3.2.0:
+    dependencies:
+      '@rubensworks/saxes': 6.0.1
+      '@types/readable-stream': 4.0.24
+      buffer: 6.0.3
+      rdf-data-factory: 2.0.2
+      readable-stream: 4.7.0
+      relative-to-absolute-iri: 1.0.8
+      validate-iri: 1.0.1
+
   readable-stream@4.5.2:
     dependencies:
       abort-controller: 3.0.0
@@ -1122,7 +1051,21 @@ snapshots:
       process: 0.11.10
       string_decoder: 1.3.0
 
+  readable-stream@4.7.0:
+    dependencies:
+      abort-controller: 3.0.0
+      buffer: 6.0.3
+      events: 3.3.0
+      process: 0.11.10
+      string_decoder: 1.3.0
+
+  readable-web-to-node-stream@5.0.0:
+    dependencies:
+      readable-stream: 4.7.0
+
   relative-to-absolute-iri@1.0.7: {}
+
+  relative-to-absolute-iri@1.0.8: {}
 
   require-from-string@2.0.2: {}
 
@@ -1146,26 +1089,15 @@ snapshots:
       es5-ext: 0.10.64
       next-tick: 1.1.0
 
-  tr46@0.0.3: {}
-
   type@2.7.3: {}
 
   undici-types@5.26.5: {}
 
-  undici@5.28.4:
-    dependencies:
-      '@fastify/busboy': 2.1.1
+  undici-types@8.3.0: {}
+
+  undici@6.28.0: {}
 
   validate-iri@1.0.1: {}
-
-  web-streams-polyfill@3.3.3: {}
-
-  webidl-conversions@3.0.1: {}
-
-  whatwg-url@5.0.0:
-    dependencies:
-      tr46: 0.0.3
-      webidl-conversions: 3.0.1
 
   xmlchars@2.2.0: {}
 
