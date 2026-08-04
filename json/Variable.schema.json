@@ -3,10 +3,90 @@
 
   "$defs": {
 
+    "simpleEntity": {
+      "type":  "object",
+      "properties": {
+        "@id": { "type": "string" }
+      },
+      "required": [ "@id" ],
+      "not": {
+        "anyOf": [
+          { "required": [ "hasDenominator" ] },
+          { "required": [ "hasNumerator" ] },
+          { "required": [ "hasSource" ] },
+          { "required": [ "hasTarget" ] },
+          { "required": [ "hasPart" ] }
+        ]
+      }
+    },
+
     "entity": {
-      "@type":  "object",
-      "@id":    "string",
-      "required": [ "@id" ]
+      "oneOf": [
+
+        {
+          "description": "simple entity - no iadopt:System",
+          "$ref": "#/$defs/simpleEntity"
+        },
+
+        {
+          "description": "iadopt:AsymmetricSystem using hasSource/hasTarget",
+          "type":  "object",
+          "properties": {
+            "@id": { "type": "string" },
+            "hasSource": { "$ref": "#/$defs/simpleEntity" },
+            "hasTarget": { "$ref": "#/$defs/simpleEntity" }
+          },
+          "required": [ "hasSource", "hasTarget" ],
+          "not": {
+            "anyOf": [
+              { "required": [ "hasDenominator" ] },
+              { "required": [ "hasNumerator" ] },
+              { "required": [ "hasPart" ] }
+            ]
+          }
+        },
+
+        {
+          "description": "iadopt:AsymmetricSystem using hasDenominator/hasNumerator",
+          "type":  "object",
+          "properties": {
+            "@id": { "type": "string" },
+            "hasDenominator": { "$ref": "#/$defs/simpleEntity" },
+            "hasNumerator":   { "$ref": "#/$defs/simpleEntity" }
+          },
+          "required": [ "hasDenominator", "hasNumerator" ],
+          "not": {
+            "anyOf": [
+              { "required": [ "hasSource" ] },
+              { "required": [ "hasTarget" ] },
+              { "required": [ "hasPart" ] }
+            ]
+          }
+        },
+
+        {
+          "description": "iadopt:SymmetricSystem",
+          "type":  "object",
+          "properties": {
+            "@id": { "type": "string" },
+            "hasPart": {
+              "type":  "array",
+              "minItems": 2,
+              "items": { "$ref": "#/$defs/simpleEntity" },
+              "unevaluatedItems": false
+            }
+          },
+          "required": [ "hasPart" ],
+          "not": {
+            "anyOf": [
+              { "required": [ "hasDenominator" ] },
+              { "required": [ "hasNumerator" ] },
+              { "required": [ "hasSource" ] },
+              { "required": [ "hasTarget" ] }
+            ]
+          }
+        }
+      ]
     },
 
     "constraint": {
@@ -51,7 +131,7 @@
       "pattern": "https://w3id.org/iadopt/ont/Variable"
     },
 
-    "property":         { "$ref": "#/$defs/entity" },
+    "property":         { "$ref": "#/$defs/simpleEntity" },
     "ooi":              { "$ref": "#/$defs/entity" },
     "objectofinterest": { "$ref": "#/$defs/entity" },
     "matrix":           { "$ref": "#/$defs/entity" },

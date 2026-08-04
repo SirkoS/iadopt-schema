@@ -1,0 +1,34 @@
+{
+  "@context": "https://w3id.org/iadopt/Variable.context.jsonld",
+  "@type": "https://w3id.org/iadopt/ont/Variable",
+  "@id": "http://example.org/iadopt/Variable",
+  "label": "Testing Variable",
+
+  "property": {
+    "@type": [
+      "https://w3id.org/iadopt/ont/Property"
+    ],
+    "@id": "http://example.org/iadopt/Prop",
+    "label": "property"
+  },
+
+  "ooi": {
+    "@type": [
+      "https://w3id.org/iadopt/ont/Entity",
+      "https://w3id.org/iadopt/ont/System",
+      "https://w3id.org/iadopt/ont/AsymetricSystem"
+    ],
+    "@id": "http://example.org/iadopt/OoI",
+    "label": "object of interest - AsymmetricSystem",
+
+    "hasNumerator": {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Entity"
+      ],
+      "@id": "http://example.org/iadopt/SysNumerator",
+      "label": "system numerator"
+    }
+
+  }
+
+}

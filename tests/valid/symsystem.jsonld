@@ -1,0 +1,43 @@
+{
+  "@context": "https://w3id.org/iadopt/Variable.context.jsonld",
+  "@type": "https://w3id.org/iadopt/ont/Variable",
+  "@id": "http://example.org/iadopt/Variable",
+  "label": "Testing Variable",
+
+  "property": {
+    "@type": [
+      "https://w3id.org/iadopt/ont/Property"
+    ],
+    "@id": "http://example.org/iadopt/Prop",
+    "label": "property"
+  },
+
+  "ooi": {
+    "@type": [
+      "https://w3id.org/iadopt/ont/Entity",
+      "https://w3id.org/iadopt/ont/System",
+      "https://w3id.org/iadopt/ont/SymetricSystem"
+    ],
+    "@id": "http://example.org/iadopt/OoI",
+    "label": "object of interest - SymmetricSystem",
+
+    "hasPart": [
+      {
+        "@type": [
+          "https://w3id.org/iadopt/ont/Entity"
+        ],
+        "@id": "http://example.org/iadopt/SysPart1",
+        "label": "system part 1"
+      },
+      {
+        "@type": [
+          "https://w3id.org/iadopt/ont/Entity"
+        ],
+        "@id": "http://example.org/iadopt/SysPart2",
+        "label": "system part 2"
+      }
+    ]
+
+  }
+
+}
