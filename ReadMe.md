@@ -45,11 +45,11 @@ See [`tests/valid`](./tests/valid/) for valid examples for JSON-LD-encoded Varia
 | `System` class can not be assigned in isolation.                                                               | ✓     |             |
 | `SymmetricSystem` and `AsymmetricSystem` are disjoint.                                                         | ✓     |             |
 | `SymmetricSystem` can not use asymmetric properties.                                                           | ✓     |             |
-| `SymmetricSystem` has to have at least two uses a symmetric property.                                          | ✓     |             |
-| `AsymmetricSystem` can not use symmetric properties.                                                           | ✓     |             |
-| `AsymmetricSystem` has to have at least two uses of asymmetric properties.                                     | ✓     |             |
-| `AsymmetricSystem` can only use properties from exactly one set of asymmetric properties.                      | ✓     |             |
-| Using one property from a set of asymmetric properties also requires the use of the other property of the set. | ✓     |             |
+| `SymmetricSystem` has to have at least two uses of a symmetric property.                                       | ✓     | ✓           |
+| `AsymmetricSystem` can not use symmetric properties.                                                           | ✓     | ✓           |
+| `AsymmetricSystem` has to have at least two uses of asymmetric properties.                                     | ✓     | ✓           |
+| `AsymmetricSystem` can only use properties from exactly one set of asymmetric properties.                      | ✓     | ✓           |
+| Using one property from a set of asymmetric properties also requires the use of the other property of the set. | ✓     | ✓           |
 
 Sets of asymmetric properties are
 * `hasSource` and `hasTarget`
