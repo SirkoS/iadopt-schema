@@ -5,9 +5,10 @@
   "main": "src/testShacl.js",
   "type": "module",
   "scripts": {
-    "schema": "node --no-warnings src/testSchema.js",
-    "shacl": "node --no-warnings src/testShacl.js",
-    "validate": "node --no-warnings src/externalValidate.js"
+    "schema": "node --no-warnings --test src/schema.test.js",
+    "shacl": "node --no-warnings --test src/shacl.test.js",
+    "validate": "node --no-warnings --test src/externalShacl.test.js",
+    "test": "node --no-warnings --test"
   },
   "keywords": [],
   "author": "Sirko Schindler",
@@ -18,5 +19,8 @@
     "cli-color": "^2.0.4",
     "globals": "^17.9.0",
     "rdf-validate-shacl": "^0.6.5"
+  },
+  "engines" : {
+    "node" : ">=26.0.0"
   }
 }
