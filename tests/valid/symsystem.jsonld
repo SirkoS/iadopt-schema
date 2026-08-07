@@ -14,9 +14,7 @@
 
   "ooi": {
     "@type": [
-      "https://w3id.org/iadopt/ont/Entity",
-      "https://w3id.org/iadopt/ont/System",
-      "https://w3id.org/iadopt/ont/SymetricSystem"
+      "https://w3id.org/iadopt/ont/SymmetricSystem"
     ],
     "@id": "http://example.org/iadopt/OoI",
     "label": "object of interest - SymmetricSystem",

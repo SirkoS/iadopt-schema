@@ -14,9 +14,7 @@
 
   "ooi": {
     "@type": [
-      "https://w3id.org/iadopt/ont/Entity",
-      "https://w3id.org/iadopt/ont/System",
-      "https://w3id.org/iadopt/ont/AsymetricSystem"
+      "https://w3id.org/iadopt/ont/AsymmetricSystem"
     ],
     "@id": "http://example.org/iadopt/OoI",
     "label": "object of interest - AsymmetricSystem",

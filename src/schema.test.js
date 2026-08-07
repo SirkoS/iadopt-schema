@@ -35,6 +35,7 @@ describe('JSON-schema | valid examples', async () => {
         const res = validator( data );
 
         // log
+        assert.deepEqual( validator.errors, null, 'should not contain any errors' );
         assert.ok( res, 'should validate' );
 
     } )

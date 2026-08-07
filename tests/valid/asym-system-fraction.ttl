@@ -5,7 +5,7 @@
 
 ex:Variable
   a           iadopt:Variable ;
-  rdfs:label  "Testing Variable"@en ;
+  rdfs:label  "Testing Variable" ;
   iadopt:hasObjectOfInterest    ex:OoI ;
   iadopt:hasProperty            ex:Prop ;
   .
@@ -13,22 +13,22 @@ ex:Variable
 
 ex:Prop
   a          iadopt:Property ;
-  rdfs:label "property"@en ;
+  rdfs:label "property" ;
   .
 
 ex:OoI
   a                       iadopt:AsymmetricSystem ;
   iadopt:hasNumerator     ex:SysNumerator ;
   iadopt:hasDenominator   ex:SysDenominator ;
-  rdfs:label "object of interest - AsymmetricSystem"@en ;
+  rdfs:label "object of interest - AsymmetricSystem" ;
   .
 
 ex:SysNumerator
   a          iadopt:Entity ;
-  rdfs:label "system numerator"@en ;
+  rdfs:label "system numerator" ;
   .
 
 ex:SysDenominator
   a          iadopt:Entity ;
-  rdfs:label "system denominator"@en ;
+  rdfs:label "system denominator" ;
   .

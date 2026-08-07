@@ -5,7 +5,7 @@
 
 ex:Variable
   a           iadopt:Variable ;
-  rdfs:label  "Testing Variable"@en ;
+  rdfs:label  "Testing Variable" ;
   iadopt:hasObjectOfInterest    ex:OoI ;
   iadopt:hasProperty            ex:Prop ;
   iadopt:hasMatrix              ex:Matrix ;
@@ -13,23 +13,23 @@ ex:Variable
   iadopt:hasStatisticalModifier ex:StatMod ;
   iadopt:hasConstraint [
     a           iadopt:Constraint ;
-    rdfs:label  "constraint OoI"@en ;
+    rdfs:label  "constraint OoI" ;
     iadopt:constrains ex:OoI ;
   ], [
     a           iadopt:Constraint ;
-    rdfs:label  "constraint Prop"@en ;
+    rdfs:label  "constraint Prop" ;
     iadopt:constrains ex:Prop ;
   ], [
     a           iadopt:Constraint ;
-    rdfs:label  "constraint Matrix"@en ;
+    rdfs:label  "constraint Matrix" ;
     iadopt:constrains ex:Matrix ;
   ], [
     a           iadopt:Constraint ;
-    rdfs:label  "constraint Context"@en ;
+    rdfs:label  "constraint Context" ;
     iadopt:constrains ex:Context ;
   ], [
     a           iadopt:Constraint ;
-    rdfs:label  "constraint StatMod"@en ;
+    rdfs:label  "constraint StatMod" ;
     iadopt:constrains ex:StatMod ;
   ]
   .
@@ -37,25 +37,25 @@ ex:Variable
 
 ex:Prop
   a          iadopt:Property ;
-  rdfs:label "property"@en ;
+  rdfs:label "property" ;
   .
 
 ex:OoI
   a          iadopt:Entity ;
-  rdfs:label "object of interest"@en ;
+  rdfs:label "object of interest" ;
   .
 
 ex:Matrix
   a          iadopt:Entity ;
-  rdfs:label "matrix"@en ;
+  rdfs:label "matrix" ;
   .
 
 ex:Context
   a          iadopt:Entity ;
-  rdfs:label "context"@en ;
+  rdfs:label "context" ;
   .
 
 ex:StatMod
   a          iadopt:StatisticalModifier ;
-  rdfs:label "statistical modifier"@en ;
+  rdfs:label "statistical modifier" ;
   .

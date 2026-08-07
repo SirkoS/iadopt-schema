@@ -5,6 +5,7 @@
   "main": "src/testShacl.js",
   "type": "module",
   "scripts": {
+    "context": "node --no-warnings --test --test-reporter tap src/context.test.js",
     "schema": "node --no-warnings --test src/schema.test.js",
     "shacl": "node --no-warnings --test src/shacl.test.js",
     "validate": "node --no-warnings --test src/externalShacl.test.js",

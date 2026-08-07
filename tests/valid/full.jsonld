@@ -1,37 +1,87 @@
 {
   "@context": "https://w3id.org/iadopt/Variable.context.jsonld",
-  "@id": "http://vocab.nerc.ac.uk/collection/P01/current/IC000344/",
+  "@id": "http://example.org/iadopt/Variable",
   "@type": "https://w3id.org/iadopt/ont/Variable",
-  "label": "concentration of endosulfane sulfate in wet flesh of ostrea edulis",
+  "label": "Testing Variable",
 
   "property": {
     "@type": [ "https://w3id.org/iadopt/ont/Property" ],
-    "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600045/",
-    "label": "concentration"
+    "@id": "http://example.org/iadopt/Prop",
+    "label": "property"
   },
 
   "ooi": {
     "@type": [ "https://w3id.org/iadopt/ont/Entity" ],
-    "@id": "http://vocab.nerc.ac.uk/collection/S27/current/CS003625/",
-    "label": "endosulfane sulfate"
+    "@id": "http://example.org/iadopt/OoI",
+    "label": "object of interest"
   },
 
   "matrix": {
     "@type": [ "https://w3id.org/iadopt/ont/Entity" ],
-    "@id": "http://vocab.nerc.ac.uk/collection/S12/current/S1214/",
-    "label": "flesh"
+    "@id": "http://example.org/iadopt/Matrix",
+    "label": "matrix"
   },
 
   "context": [{
     "@type": [ "https://w3id.org/iadopt/ont/Entity" ],
-    "@id": "http://marinespecies.org/aphia.php?p=taxdetails&id=140658",
-    "label": "ostrea edulis"
+    "@id": "http://example.org/iadopt/Context",
+    "label": "context"
   }],
 
-  "constraint": [{
-    "@type": [ "https://w3id.org/iadopt/ont/Constraint", "http://purl.obolibrary.org/obo/PATO_0001823" ],
-    "label": "wet",
-    "constrains": [ "http://vocab.nerc.ac.uk/collection/S12/current/S1214/" ]
-  }]
+  "statisticalmodifier": {
+    "@type": [
+      "https://w3id.org/iadopt/ont/StatisticalModifier"
+    ],
+    "@id": "http://example.org/iadopt/StatMod",
+    "label": "statistical modifier"
+  },
+
+  "constraint": [
+    {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Constraint"
+      ],
+      "label": "constraint OoI",
+      "constrains": [
+        "http://example.org/iadopt/OoI"
+      ]
+    },
+    {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Constraint"
+      ],
+      "label": "constraint Prop",
+      "constrains": [
+        "http://example.org/iadopt/Prop"
+      ]
+    },
+    {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Constraint"
+      ],
+      "label": "constraint Matrix",
+      "constrains": [
+        "http://example.org/iadopt/Matrix"
+      ]
+    },
+    {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Constraint"
+      ],
+      "label": "constraint Context",
+      "constrains": [
+        "http://example.org/iadopt/Context"
+      ]
+    },
+    {
+      "@type": [
+        "https://w3id.org/iadopt/ont/Constraint"
+      ],
+      "label": "constraint StatMod",
+      "constrains": [
+        "http://example.org/iadopt/StatMod"
+      ]
+    }
+  ]
 
 }

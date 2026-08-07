@@ -2,8 +2,14 @@
   "@context": {
     "@version": 1.1,
 
-    "label": "http://www.w3.org/2000/01/rdf-schema#label",
-    "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "label": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+      "@container": ["@language", "@set"]
+    },
+    "comment": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "@container": ["@language", "@set"]
+    },
 
     "property": {
       "@id": "https://w3id.org/iadopt/ont/hasProperty",
@@ -33,6 +39,15 @@
       "@type": "@id"
     },
 
+    "statisticalmodifier": {
+      "@id": "https://w3id.org/iadopt/ont/hasStatisticalModifier",
+      "@type": "@id"
+    },
+    "statmod": {
+      "@id": "https://w3id.org/iadopt/ont/hasStatisticalModifier",
+      "@type": "@id"
+    },
+
     "constraint": {
       "@id":    "https://w3id.org/iadopt/ont/hasConstraint",
 
@@ -42,6 +57,31 @@
           "@type": "@id"
         }
       }
+    },
+
+
+
+    "hasSource": {
+      "@id":    "https://w3id.org/iadopt/ont/hasSource",
+      "@type": "@id"
+    },
+    "hasTarget": {
+      "@id":    "https://w3id.org/iadopt/ont/hasTarget",
+      "@type": "@id"
+    },
+
+    "hasNumerator": {
+      "@id":    "https://w3id.org/iadopt/ont/hasNumerator",
+      "@type": "@id"
+    },
+    "hasDenominator": {
+      "@id":    "https://w3id.org/iadopt/ont/hasDenominator",
+      "@type": "@id"
+    },
+
+    "hasPart": {
+      "@id":    "https://w3id.org/iadopt/ont/hasPart",
+      "@type": "@id"
     }
 
   }

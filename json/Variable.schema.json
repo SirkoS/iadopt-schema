@@ -147,6 +147,10 @@
         { "$ref": "#/$defs/entity" }
       ]
     },
+
+    "statisticalmodifier": { "$ref": "#/$defs/simpleEntity" },
+    "statmod":             { "$ref": "#/$defs/simpleEntity" },
+
     "contextobject": {
       "description": "contextObject can either be a single entity or an array of entities",
       "anyOf": [
@@ -178,20 +182,28 @@
   "allOf": [{
       "required": [ "@context", "@id", "@type", "property" ]
     }, {
-      "oneOf": [
-        { "required": ["context"] },
-        { "required": ["contextobject"] },
-        { "properties": {
-            "context":       { "not": {} },
-            "contextobject": { "not": {} }
-          }
-        }
-      ]
+      "not": {
+        "required": ["context", "contextobject"]
+      }
+    }, {
+      "not": {
+        "required": ["context", "contextobject"]
+      }
     }, {
       "oneOf": [
         { "required": ["ooi"] },
         { "required": ["objectofinterest"] }
       ]
-  }]
+    }, {
+      "not": {
+        "required": ["statmod", "statisticalmodifier"]
+      }
+    },
+
+    { "not": { "required": [ "contextObject" ] },       "description": "all lower-case key required for context object" },
+    { "not": { "required": [ "statMod" ] },             "description": "all lower-case key required for statmod" },
+    { "not": { "required": [ "statisticalModifier" ] }, "description": "all lower-case key required for statistical modifier" }
+
+  ]
 
 }

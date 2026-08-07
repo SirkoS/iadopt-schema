@@ -5,7 +5,7 @@
 
 ex:Variable
   a           iadopt:Variable ;
-  rdfs:label  "Testing Variable"@en ;
+  rdfs:label  "Testing Variable" ;
   iadopt:hasObjectOfInterest    ex:OoI ;
   iadopt:hasProperty            ex:Prop ;
   .
@@ -13,10 +13,10 @@ ex:Variable
 
 ex:Prop
   a          iadopt:Property ;
-  rdfs:label "property"@en ;
+  rdfs:label "property" ;
   .
 
 ex:OoI
   a          iadopt:Entity ;
-  rdfs:label "object of interest"@en ;
+  rdfs:label "object of interest" ;
   .
