@@ -13,7 +13,6 @@ and a few testing tools.
 
 See [`tests/valid`](./tests/valid/) for valid examples for JSON-LD-encoded Variables.
 
-**Note: JSON-LD schemas have not yet been updated to reflect the changes of I-Adopt 1.1!**
 
 ## Covered Requirements
 
@@ -38,7 +37,7 @@ See [`tests/valid`](./tests/valid/) for valid examples for JSON-LD-encoded Varia
 | `Constraint`s of a `Variable` need to constraint only entities of the same `Variable`. |   ✓   |      ✗      |
 
 
-** System**
+**System**
 
 | Requirement                                                                                                    | SHACL | JSON-Schema |
 |----------------------------------------------------------------------------------------------------------------|-------|-------------|
@@ -64,10 +63,13 @@ The JSON-LD schema defines the following aliases for properties as a shorthand:
 
 * `ooi` == `objectofinterest`
 * `context` == `contextobject`
+* `statmod` == `statisticalmodifier`
 
 ## Run
 
-* Test JSON schema: `npm run schema`
-* Test SHACL shapes (without SPARQL restrictions): `npm run shacl`
-* Test SHACL shapes (with SPARQL restrictions): `npm run validate`
+* Test JSON-LD context: `pnpm run context`
+* Test JSON schema: `pnpm run schema`
+* Test SHACL shapes (without SPARQL restrictions): `pnpm run shacl`
+* Test SHACL shapes (with SPARQL restrictions): `pnpm run validate`
   * requires [ISAITB/shacl-validator](https://github.com/ISAITB/shacl-validator) to be present as `validator.jar` in the root folder and Java available
+* Test everything `pnpm run test`
